@@ -1,0 +1,24 @@
+/build
+*.log
+.DS_Store
+.env
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+/node_modules
+npm-debug.log
+Thumbs.db
+yarn-error.log
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.swo
+

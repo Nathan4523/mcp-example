@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "bin": {
+    "ContatoMais": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "express": "^5.1.0",
+    "zod": "^4.0.0" 
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.7",
+    "typescript": "^5.8.3"
+  }
+}
