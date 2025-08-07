@@ -31,7 +31,7 @@ export const postsNewsTool: Tool = {
     inputSchema: {
         type: "object",
         properties: {
-            title: z.email().describe("Informe um titulo do post"),
+            title: z.string().describe("Informe um titulo do post"),
             body: z.string().describe("Escreva uma descrição do post"),
             userId: z.string().describe("Informar o autor do post")
         }
